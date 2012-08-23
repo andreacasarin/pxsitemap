@@ -1,0 +1,11 @@
+Pxsitemap (beta) è un generatore di sitemap xml dinamiche basato sul crawler PHPCrawl.
+Il suo utilizzo base è molto semplice, scarica il crawler php da http://sourceforge.net/projects/phpcrawl/files/PHPCrawl/PHPCrawl%200.80%20beta/PHPCrawl_080.tar.gz/download e salvalo nella directory "pxsitemap_include/phpcrawl" ed è fatta.
+
+Nel file "sitemap.php" è possibile impostare:
+ - $base_url, url da cui partire per il crawling.
+ - $default_properties, ovvero le proprietà usate dove non diversamente specificato.
+ - $custom_properties, proprietà personalizzate per alcuni url.
+ - $exclude_pages, url da escludere nonostante siano linkate da altre pagine.
+ - $include_pages, url da includere nonostante non siano linkati da nessuna pagina.
+
+Questo software è rilasciato secondo la licenza http://www.gnu.org/licenses/gpl-2.0.html.
